@@ -1,9 +1,5 @@
-/.idea
-/.vscode
-/vendor
-docs/.vuepress/.cache
-docs/.vuepress/.temp
-docs/.vuepress/dist
-node_modules
-*.log
-.env
+
+node_modules/
+src/.vuepress/.cache/
+src/.vuepress/.temp/
+src/.vuepress/dist/
