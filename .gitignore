@@ -1,0 +1,7 @@
+/.idea
+/.vscode
+/vendor
+docs/.vuepress/.cache
+node_modules
+*.log
+.env
