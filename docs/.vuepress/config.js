@@ -14,5 +14,9 @@ export default defineUserConfig({
     navbar: ['/', '/get-started'],
   }),
 
-  bundler: viteBundler(),
+  bundler: viteBundler({
+    viteOptions: {
+      base: "/src"
+    },
+  }),
 })
